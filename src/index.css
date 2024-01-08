@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #012a4a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home-img {
+  width: 40rem;
+  margin-right: 1-rem;
+}
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10rem;
+}
+.image-wrapper {
+  margin-right: 5rem;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10rem;
+}
+.welcome-text {
+  color: white;
+  font-size: 40px;
+ }
+ .review-login {
+  background: #fff;
+  padding: 3rem 3rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  text-align: center;
+}
+.origin, .dest{
+  display: flex;
+  margin: 1.5rem;
+}
+.dashboard-text {
+  color: #03045e;
+}
+.card {
+  margin-top: 2rem;
+}
+.usage-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+.graph-btn {
+  margin-top: 4.78rem !important;
+}
